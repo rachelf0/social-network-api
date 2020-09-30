@@ -18,5 +18,15 @@ const ThoughtSchema = new Schema(
             type: String,
             required: true
         },
+
+        // use ReactionSchema to validate data
+        reactions: [ReactionSchema]
+    },
+    {
+        toJSON: {
+            virutals: true,
+            getters: true
+        },
+        id: false
     }
-)
+);
