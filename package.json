@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "![Express](https://img.shields.io/badge/-Express.js-orange) ![javascript](https://img.shields.io/badge/-javascript-green) ![node JS](https://img.shields.io/badge/-nodeJS-yellowgreen) ![jest](https://img.shields.io/badge/-jest-yellow) ![MySQL](https://img.shields.io/badge/-MySQL-red) ![Sequelize](https://img.shields.io/badge/-Sequelize-blue) ![HandlesBars](https://img.shields.io/badge/-HandleBars-magenta) ![Foundation](https://img.shields.io/badge/-Foundation-lightgreen) ![bcrypt](https://img.shields.io/badge/-bcrypt-blue)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelf0/social-network-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelf0/social-network-api/issues"
+  },
+  "homepage": "https://github.com/rachelf0/social-network-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
+  }
+}
