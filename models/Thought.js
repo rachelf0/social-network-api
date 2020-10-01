@@ -62,7 +62,7 @@ const ThoughtSchema = new Schema(
 );
 
 // create the Thought model using the ThoughtSchema
-const Thought = model('ThoughtSchema')
+const Thought = model('ThoughtSchema', ThoughtSchema);
 
 // export the Thought model
 module.exports = Thought;
